@@ -1,8 +1,6 @@
-# Library Catalog - Frontend
+# Library Catalog App
 
-A React frontend for the Library Catalog app. It lets users browse books, search by title or author, filter by genre, sort, and view full details for one book.
-
-Built with React + Vite + React Router. It talks to a NestJS backend.
+A full Library Catalog app with a React frontend and a NestJS backend. Users can browse books, search by title or author, filter by genre, sort, and view full details for one book.
 
 ## Features
 
@@ -16,30 +14,8 @@ Built with React + Vite + React Router. It talks to a NestJS backend.
 
 ## Tech Stack
 
-- React + Vite
-- React Router DOM
-- JavaScript (JSX)
-- Fetch API
+**Frontend:** React + Vite + React Router DOM + Fetch API
+**Backend:** NestJS (assumed running on port 3000)
+**Language:** JavaScript (JSX)
 
 ## Project Structure
-
-client/
-  .env
-  src/
-    main.jsx
-    App.jsx
-    pages/
-      HomePage.jsx
-      BookDetail.jsx
-    components/
-      BookGrid.jsx
-      BookCard.jsx
-      SearchBar.jsx
-
-## Setup
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME/client
